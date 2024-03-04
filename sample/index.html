@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script type="importMap">
+        {
+            "imports": {
+                "@node-projects/base-custom-webcomponent": "./node_modules/@node-projects/base-custom-webcomponent/"
+            }
+        }
+        </script>
+        <script type="module" src="../dist/index.js"></script>
+    </head>
+    <body>
+        <node-projects-split-view style="position: absolute; width: 500px; height: 300px;">
+            <div style="background: red; width: 100%; height: 100%; min-width: 100;"></div>
+            <div style="background: green; width: 100%; height: 100%;"></div>
+        </node-projects-split-view>
+
+        <node-projects-split-view orientation="vertical" style="position: absolute; top: 400px; width: 500px; height: 300px;">
+            <div style="background: red; width: 100%; height: 100%; min-height: 50px;"></div>
+            <div style="background: green; width: 100%; height: 100%; min-height: 50px;"></div>
+        </node-projects-split-view>
+    </body>
+</html>
