@@ -1,6 +1,6 @@
 {
   "name": "@node-projects/splitview.webcomponent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a splitview webcomponent.",
   "type": "module",
   "main": "./dist/SplitView.js",
